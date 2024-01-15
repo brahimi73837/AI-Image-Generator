@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ai Image Generator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Ai Image Generator</h1>
+        <p>Enter a prompt and generate an image. For example: "Best Quality, 4k, Masterpiece, 8k, Extra High Quality, Extreme detailed, High Resolution, Ultra High Resolution, Detailed Shadows, (An astronaut riding a horse), Smile, Customization, Cute".</p>
+        <form class="gen-form">
+            <input type="text" id="user-prompt" , placeholder="Type your prompt here..." autocomplete="off">
+            <button type="button" id="generate">Generate</button>
+        </form>
+
+        <div class="result">
+            <div id="loading">Generating...</div>
+            <div id="image-grid"></div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
